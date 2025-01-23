@@ -18,8 +18,8 @@ const Portfolio = () => {
       <section id='home'>
         <h2>Home</h2>
         <Image src='https://picsum.photos/200/300' alt='Profile Picture' style={{ width: '180px', borderRadius: '90px', border: '3px solid #0072ff' }} />
-        <p>Hello! I am Uzair Ahmed, a passionate web developer with skills in JavaScript, React, and CSS.</p>
-        <h3>And I'm a <span>Frontend Developer</span></h3>
+        <p>Hello! I am Uzair Ahmed, a passionate web developer with skills in JavaScript React and CSS</p>
+        <h3>And I am a <span>Frontend Developer</span></h3>
         <p>Front-End Developer Responsibilities Collaborate with designers
           optimize applications develop features and maintain brand
           consistency for user-facing interfaces</p>
