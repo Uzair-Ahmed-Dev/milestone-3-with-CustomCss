@@ -1,0 +1,231 @@
+.portfolio {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+section {
+  height: auto; /* Change to auto for better responsiveness */
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  background: linear-gradient(to right, #66d9ef, #3e8e41);
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+input, textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus, textarea:focus {
+  border-color: #333;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  gap: 20px;
+}
+
+#home h2 {
+  font-size: 52px;
+  margin-bottom: 25px;
+  color: #0072ff;
+}
+
+#home h3 {
+  font-size: 40px;
+  margin: 20px 0;
+  color: #333;
+}
+
+#home p {
+  font-size: 20px;
+  margin: 15px 0;
+  text-align: center;
+  color: #666;
+}
+
+#home img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  border-radius: 90px;
+  margin-bottom: 25px;
+  border: 3px solid #0072ff;
+}
+
+#about {
+  background: linear-gradient(to right, #66d9ef, #3e8e41);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about h2, #about h3, #about p {
+  color: #fff;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  width: 80%;
+}
+
+.card h2 {
+  color: #333;
+}
+
+.card p {
+  color: #666;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header {
+    padding: 15px;
+  }
+
+  nav ul li {
+    display: block; /* Stack navigation items vertically */
+    margin: 5px 0;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  #home h2 {
+    font-size: 40px;
+  }
+
+  #home h3 {
+    font-size: 30px;
+  }
+
+  #home p {
+    font-size: 18px;
+  }
+
+  input, textarea {
+    max-width: 90%; /* Make input fields wider on smaller screens */
+  }
+
+  button {
+    width: 100%; /* Make button full width */
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  #home h2 {
+    font-size: 30px;
+  }
+
+  #home h3 {
+    font-size: 24px;
+  }
+
+  #home p {
+    font-size: 16px;
+  }
+
+  input, textarea {
+    max-width: 95%; /* Make input fields wider on smaller screens */
+  }
+}
